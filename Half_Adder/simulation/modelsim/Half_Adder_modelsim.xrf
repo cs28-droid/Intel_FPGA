@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/intelFPGA_lite/Half_Adder/Half_Adder_new.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/intelFPGA_lite/Half_Adder/half_adder_struct.vhd
+design_name = half_adder_struct
+instance = comp, \Sum~output\, Sum~output, half_adder_struct, 1
+instance = comp, \Carry~output\, Carry~output, half_adder_struct, 1
+instance = comp, \B~input\, B~input, half_adder_struct, 1
+instance = comp, \A~input\, A~input, half_adder_struct, 1
+instance = comp, \G5|O~0\, G5|O~0, half_adder_struct, 1
+instance = comp, \G3|O~0\, G3|O~0, half_adder_struct, 1
+instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, half_adder_struct, 1
