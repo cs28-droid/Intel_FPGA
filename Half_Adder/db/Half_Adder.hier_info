@@ -1,0 +1,45 @@
+|half_adder_struct
+A => not_gate:G1.I
+A => and_gate:G4.I1
+A => and_gate:G6.I1
+B => not_gate:G2.I
+B => and_gate:G3.I2
+B => and_gate:G6.I2
+Sum << or_gate:G5.O
+Carry << and_gate:G6.O
+
+
+|half_adder_struct|not_gate:G1
+I => O.DATAIN
+O <= I.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|half_adder_struct|not_gate:G2
+I => O.DATAIN
+O <= I.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|half_adder_struct|and_gate:G3
+I1 => O.IN0
+I2 => O.IN1
+O <= O.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|half_adder_struct|and_gate:G4
+I1 => O.IN0
+I2 => O.IN1
+O <= O.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|half_adder_struct|or_gate:G5
+I1 => O.IN0
+I2 => O.IN1
+O <= O.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|half_adder_struct|and_gate:G6
+I1 => O.IN0
+I2 => O.IN1
+O <= O.DB_MAX_OUTPUT_PORT_TYPE
+
+
